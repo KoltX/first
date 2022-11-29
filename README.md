@@ -5,6 +5,8 @@ definimos el logo en el manifest
 
 Creamos un incio de sesion con una logo con animacion parpadeante y fondo splash que te lleva al login con otra animacion del logo, un gradiante de fondo junto con una imagen...
 ![LOGIN](img/inicio.gif)
+Creamos land para cuando se gire el dispositivo
+![land](img/land.png)
 
 
 >This repository is licensed under
