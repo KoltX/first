@@ -43,7 +43,7 @@ public class Login extends AppCompatActivity {
         ImageView mLogo = findViewById(R.id.logo);
 
         Glide.with(this)
-              .load(R.drawable.girl)
+              .load(R.drawable.espartano1)
 //                .transition(DrawableTransitionOptions.withCrossFade(2000))
 //                .centerCrop()
 //                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
