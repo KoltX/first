@@ -10,7 +10,8 @@ Creamos land para cuando se gire el dispositivo
 Creamos themes 
 ![theme](img/theme.png)
 si refrescamos sale una imagen nueva. https://github.com/KoltX/first/blob/cba20467cb6870e624776a0f0d97b8b084d11246/app/src/main/java/com/eramiro/first/MainBn.java
-![pager](img/vpager.png)
+
+![pager](img/pager.png)
 
 
 
