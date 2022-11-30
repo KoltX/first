@@ -139,24 +139,17 @@ public class Main extends AppCompatActivity {
     };
 
 
-    //implementing ActionBar/AppBar menu
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_appbar, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
         if (id == R.id.item1) {
-//            showAlertDialogButtonClicked(Main.this);
 
             Toast toast = Toast.makeText(this, "Infecting", Toast.LENGTH_LONG);
             toast.show();
@@ -184,14 +177,6 @@ public class Main extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
-    // implementing context menu
-
-//    @Override
-//    public void onCreateContextMenu(ContextMenu menu, View v,
-//                                    ContextMenu.ContextMenuInfo menuInfo) {
-
-
     public void onCreateContextMenu(ContextMenu menu, View v,
                                     ContextMenu.ContextMenuInfo menuInfo) {
 
@@ -208,20 +193,6 @@ public class Main extends AppCompatActivity {
                         Toast.LENGTH_LONG);
                 toast.show();
 
-//                final ConstraintLayout mLayout = findViewById(R.id.myMainConstraint);
-//
-//                Snackbar snackbar = Snackbar
-//                        .make(mLayout, "fancy a Snack while you refresh?", Snackbar.LENGTH_LONG)
-//                        .setAction("UNDO", new View.OnClickListener() {
-//                            @Override
-//                            public void onClick(View view) {
-//                                Snackbar snackbar1 = Snackbar.make(mLayout, "Action is restored!", Snackbar.LENGTH_SHORT);
-//                                snackbar1.show();
-//                            }
-//                        });
-//
-//                snackbar.show();
-
                 return true;
 
             case R.id.item2:
@@ -231,7 +202,6 @@ public class Main extends AppCompatActivity {
                 return true;
 
             default:
-//                return super.onContextItemSelected(item);
                 return false;
         }
 
