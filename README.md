@@ -16,5 +16,7 @@ Toolbar, presionas y sale un toast.Menu desplegable de navegacion y salir. https
 
 modo noche con colores un poco mas apagados
 ![dark](img/dark.png)
+Creamos un xml con un menu principal y al anclar el boton al appbar, este le rodea
+![bab](img/bab.png)
 >This repository is licensed under
 >[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
